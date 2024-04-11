@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - UserServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>UserServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mj.mysns.user.html">com.mj.mysns.user</a> &gt; UserServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">19</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.397s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">94%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="getUserProfileByUsername()"></a>
+<h3 class="failures">getUserProfileByUsername()</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;2&gt; but was: &lt;1&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+	at app//com.mj.mysns.user.UserServiceTest.getUserProfileByUsername(UserServiceTest.java:169)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at app//org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base@21.0.2/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@21.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.2/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">findByAuthentication()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findByIssuerAndSubject()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getFriends_BlankUsername_ThrowsIllegalArgumentException()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getFriends_NullUserDto_ThrowsIllegalArgumentException()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getFriends_NullUsername_ThrowsIllegalArgumentException()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">getUserProfileByUsername()</td>
+<td class="failures">0.294s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">saveUser_ExisUser_ThrowsException()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">saveUser_ExistUsername_ThrowsException()</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">saveUser_NotFoundAddress_ThrowsException()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">saveUser_Success()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_EmptyAddresses_NotCallLocationService()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_ExistNextUsername_ThrowsUsernameDuplicatedException()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_FailFileManager_NotSaveFile()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_FoundAddresses_SaveAddresses()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_NotExistUser_ThrowsUserNotFoundException()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_NotFoundAddresses_ThrowsAddressNotFoundException()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_NullAddresses_NotCallLocationService()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_NullFile_NotCallFileManager()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser_SuccessFileManager_SaveFile()</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:30:49.683 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mj.mysns.user.UserServiceTest]: UserServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:30:49.768 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mj.mysns.MySnsApplication for test class com.mj.mysns.user.UserServiceTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-04-09T14:30:50.000+09:00  INFO 8392 --- [    Test worker] com.mj.mysns.user.UserServiceTest        : Starting UserServiceTest using Java 21.0.2 with PID 8392 (started by mj in /Users/mj/work/sns/server)
+2024-04-09T14:30:50.001+09:00  INFO 8392 --- [    Test worker] com.mj.mysns.user.UserServiceTest        : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-04-09T14:30:50.713+09:00  INFO 8392 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-09T14:30:50.805+09:00  INFO 8392 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 4 JPA repository interfaces.
+2024-04-09T14:30:51.744+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'testConfig' of type [com.mj.mysns.config.TestConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:51.900+09:00  INFO 8392 --- [    Test worker] org.testcontainers.images.PullPolicy     : Image pull policy will be performed by: DefaultPullPolicy()
+2024-04-09T14:30:51.904+09:00  INFO 8392 --- [    Test worker] o.t.utility.ImageNameSubstitutor         : Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2024-04-09T14:30:52.020+09:00  INFO 8392 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2024-04-09T14:30:52.171+09:00  INFO 8392 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2024-04-09T14:30:52.171+09:00  INFO 8392 --- [    Test worker] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2024-04-09T14:30:52.191+09:00  INFO 8392 --- [    Test worker] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 25.0.3
+  API Version: 1.44
+  Operating System: Docker Desktop
+  Total Memory: 7841 MB
+2024-04-09T14:30:52.231+09:00  INFO 8392 --- [    Test worker] tc.testcontainers/ryuk:0.6.0             : Creating container for image: testcontainers/ryuk:0.6.0
+2024-04-09T14:30:52.341+09:00  INFO 8392 --- [    Test worker] o.t.utility.RegistryAuthLocator          : Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2024-04-09T14:30:52.417+09:00  INFO 8392 --- [    Test worker] tc.testcontainers/ryuk:0.6.0             : Container testcontainers/ryuk:0.6.0 is starting: b2020ebc62cea865ebd22754689db4383c42c3f6d42c6789ff3b02a4856ef014
+2024-04-09T14:30:52.639+09:00  INFO 8392 --- [    Test worker] tc.testcontainers/ryuk:0.6.0             : Container testcontainers/ryuk:0.6.0 started in PT0.407138S
+2024-04-09T14:30:52.644+09:00  INFO 8392 --- [    Test worker] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2024-04-09T14:30:52.645+09:00  INFO 8392 --- [    Test worker] org.testcontainers.DockerClientFactory   : Checking the system...
+2024-04-09T14:30:52.645+09:00  INFO 8392 --- [    Test worker] org.testcontainers.DockerClientFactory   : ✔︎ Docker server version should be at least 1.6.0
+2024-04-09T14:30:52.645+09:00  INFO 8392 --- [    Test worker] tc.postgis/postgis:16-master             : Creating container for image: postgis/postgis:16-master
+2024-04-09T14:30:52.646+09:00  WARN 8392 --- [    Test worker] tc.postgis/postgis:16-master             : Reuse was requested but the environment does not support the reuse of containers
+To enable reuse of containers, you must set 'testcontainers.reuse.enable=true' in a file located at /Users/mj/.testcontainers.properties
+2024-04-09T14:30:52.668+09:00  INFO 8392 --- [    Test worker] tc.postgis/postgis:16-master             : Container postgis/postgis:16-master is starting: bb20994aed2c8eb79a15a210b11cae3dc5047f068346e3462a0d6c9487fb2cc9
+2024-04-09T14:30:52.802+09:00  WARN 8392 --- [    Test worker] tc.postgis/postgis:16-master             : The architecture 'amd64' for image 'postgis/postgis:16-master' (ID sha256:79a8bdd52894a2d2915ce64fdab57a75b921d2f02f952c43fd20a3bbe5011147) does not match the Docker server architecture 'arm64'. This will cause the container to execute much more slowly due to emulation and may lead to timeout failures.
+2024-04-09T14:30:56.685+09:00  INFO 8392 --- [    Test worker] tc.postgis/postgis:16-master             : Container postgis/postgis:16-master started in PT4.039325S
+2024-04-09T14:30:56.686+09:00  INFO 8392 --- [    Test worker] tc.postgis/postgis:16-master             : Container is started (JDBC URL: jdbc:postgresql://localhost:57303/mj?loggerLevel=OFF)
+2024-04-09T14:30:56.690+09:00  INFO 8392 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-09T14:30:56.778+09:00  INFO 8392 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46c92d27
+2024-04-09T14:30:56.779+09:00  INFO 8392 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-09T14:30:56.780+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'actualDataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.794+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [net.ttddyy.dsproxy.support.ProxyDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.811+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.JpaProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.814+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.819+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.820+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'hikariPoolDataSourceMetadataProvider' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration$$Lambda/0x0000000800971b80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.824+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.829+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.833+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'transactionExecutionListeners' of type [org.springframework.boot.autoconfigure.transaction.ExecutionListenersTransactionManagerCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.836+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.837+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.847+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration' of type [org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.850+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties' of type [org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.854+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceScriptDatabaseInitializer' of type [org.springframework.boot.autoconfigure.sql.init.SqlDataSourceScriptDatabaseInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.856+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$DataSourceInitializerConfiguration' of type [org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$DataSourceInitializerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.860+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.batch-org.springframework.boot.autoconfigure.batch.BatchProperties' of type [org.springframework.boot.autoconfigure.batch.BatchProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.881+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'io.awspring.cloud.autoconfigure.s3.S3AutoConfiguration$CrossRegionS3ClientConfiguration' of type [io.awspring.cloud.autoconfigure.s3.S3AutoConfiguration$CrossRegionS3ClientConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.885+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.aws.s3-io.awspring.cloud.autoconfigure.s3.properties.S3Properties' of type [io.awspring.cloud.autoconfigure.s3.properties.S3Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.887+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'io.awspring.cloud.autoconfigure.s3.S3AutoConfiguration' of type [io.awspring.cloud.autoconfigure.s3.S3AutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.890+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.aws-io.awspring.cloud.autoconfigure.core.AwsProperties' of type [io.awspring.cloud.autoconfigure.core.AwsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.891+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'io.awspring.cloud.autoconfigure.core.AwsAutoConfiguration' of type [io.awspring.cloud.autoconfigure.core.AwsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.893+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.aws.credentials-io.awspring.cloud.autoconfigure.core.CredentialsProperties' of type [io.awspring.cloud.autoconfigure.core.CredentialsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.895+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.aws.region-io.awspring.cloud.autoconfigure.core.RegionProperties' of type [io.awspring.cloud.autoconfigure.core.RegionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.896+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'io.awspring.cloud.autoconfigure.core.RegionProviderAutoConfiguration' of type [io.awspring.cloud.autoconfigure.core.RegionProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.901+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'regionProvider' of type [software.amazon.awssdk.regions.providers.DefaultAwsRegionProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.903+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'io.awspring.cloud.autoconfigure.core.CredentialsProviderAutoConfiguration' of type [io.awspring.cloud.autoconfigure.core.CredentialsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.906+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'credentialsProvider' of type [software.amazon.awssdk.auth.credentials.DefaultCredentialsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.913+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'awsClientBuilderConfigurer' of type [io.awspring.cloud.autoconfigure.core.AwsClientBuilderConfigurer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:56.937+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 's3ClientBuilder' of type [software.amazon.awssdk.services.s3.DefaultS3ClientBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:57.248+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 's3Client' of type [io.awspring.cloud.s3.crossregion.CrossRegionS3Client] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:57.285+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'inMemoryBufferingS3StreamProvider' of type [io.awspring.cloud.s3.InMemoryBufferingS3OutputStreamProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+
+Name:DATA_SOURCE_PROXY, Connection:2, Time:35, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    CREATE TABLE BATCH_JOB_INSTANCE ( JOB_INSTANCE_ID BIGINT NOT NULL PRIMARY KEY , VERSION BIGINT , JOB_NAME VARCHAR(100) NOT NULL, JOB_KEY VARCHAR(32) NOT NULL, constraint JOB_INST_UN unique (JOB_NAME, JOB_KEY) ) &quot;]
+Params:[]
+
+Name:DATA_SOURCE_PROXY, Connection:2, Time:9, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    CREATE TABLE BATCH_JOB_EXECUTION ( JOB_EXECUTION_ID BIGINT NOT NULL PRIMARY KEY , VERSION BIGINT , JOB_INSTANCE_ID BIGINT NOT NULL, CREATE_TIME TIMESTAMP NOT NULL, START_TIME TIMESTAMP DEFAULT NULL , END_TIME TIMESTAMP DEFAULT NULL , STATUS VARCHAR(10) , EXIT_CODE VARCHAR(2500) , EXIT_MESSAGE VARCHAR(2500) , LAST_UPDATED TIMESTAMP, constraint JOB_INST_EXEC_FK foreign key (JOB_INSTANCE_ID) references BATCH_JOB_INSTANCE(JOB_INSTANCE_ID) ) &quot;]
+Params:[]
+
+Name:DATA_SOURCE_PROXY, Connection:2, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    CREATE TABLE BATCH_JOB_EXECUTION_PARAMS ( JOB_EXECUTION_ID BIGINT NOT NULL , PARAMETER_NAME VARCHAR(100) NOT NULL , PARAMETER_TYPE VARCHAR(100) NOT NULL , PARAMETER_VALUE VARCHAR(2500) , IDENTIFYING CHAR(1) NOT NULL , constraint JOB_EXEC_PARAMS_FK foreign key (JOB_EXECUTION_ID) references BATCH_JOB_EXECUTION(JOB_EXECUTION_ID) ) &quot;]
+Params:[]
+
+Name:DATA_SOURCE_PROXY, Connection:2, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    CREATE TABLE BATCH_STEP_EXECUTION ( STEP_EXECUTION_ID BIGINT NOT NULL PRIMARY KEY , VERSION BIGINT NOT NULL, STEP_NAME VARCHAR(100) NOT NULL, JOB_EXECUTION_ID BIGINT NOT NULL, CREATE_TIME TIMESTAMP NOT NULL, START_TIME TIMESTAMP DEFAULT NULL , END_TIME TIMESTAMP DEFAULT NULL , STATUS VARCHAR(10) , COMMIT_COUNT BIGINT , READ_COUNT BIGINT , FILTER_COUNT BIGINT , WRITE_COUNT BIGINT , READ_SKIP_COUNT BIGINT , WRITE_SKIP_COUNT BIGINT , PROCESS_SKIP_COUNT BIGINT , ROLLBACK_COUNT BIGINT , EXIT_CODE VARCHAR(2500) , EXIT_MESSAGE VARCHAR(2500) , LAST_UPDATED TIMESTAMP, constraint JOB_EXEC_STEP_FK foreign key (JOB_EXECUTION_ID) references BATCH_JOB_EXECUTION(JOB_EXECUTION_ID) ) &quot;]
+Params:[]
+
+Name:DATA_SOURCE_PROXY, Connection:2, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    CREATE TABLE BATCH_STEP_EXECUTION_CONTEXT ( STEP_EXECUTION_ID BIGINT NOT NULL PRIMARY KEY, SHORT_CONTEXT VARCHAR(2500) NOT NULL, SERIALIZED_CONTEXT TEXT , constraint STEP_EXEC_CTX_FK foreign key (STEP_EXECUTION_ID) references BATCH_STEP_EXECUTION(STEP_EXECUTION_ID) ) &quot;]
+Params:[]
+
+Name:DATA_SOURCE_PROXY, Connection:2, Time:4, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    CREATE TABLE BATCH_JOB_EXECUTION_CONTEXT ( JOB_EXECUTION_ID BIGINT NOT NULL PRIMARY KEY, SHORT_CONTEXT VARCHAR(2500) NOT NULL, SERIALIZED_CONTEXT TEXT , constraint JOB_EXEC_CTX_FK foreign key (JOB_EXECUTION_ID) references BATCH_JOB_EXECUTION(JOB_EXECUTION_ID) ) &quot;]
+Params:[]
+
+Name:DATA_SOURCE_PROXY, Connection:2, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    CREATE SEQUENCE BATCH_STEP_EXECUTION_SEQ MAXVALUE 9223372036854775807 NO CYCLE&quot;]
+Params:[]
+
+Name:DATA_SOURCE_PROXY, Connection:2, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    CREATE SEQUENCE BATCH_JOB_EXECUTION_SEQ MAXVALUE 9223372036854775807 NO CYCLE&quot;]
+Params:[]
+
+Name:DATA_SOURCE_PROXY, Connection:2, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    CREATE SEQUENCE BATCH_JOB_SEQ MAXVALUE 9223372036854775807 NO CYCLE&quot;]
+Params:[]
+2024-04-09T14:30:57.358+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'batchDataSourceInitializer' of type [org.springframework.boot.autoconfigure.batch.BatchDataSourceScriptDatabaseInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:57.369+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'jpaVendorAdapter' of type [org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:57.371+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactoryBuilder' of type [org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:57.380+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'persistenceManagedTypes' of type [org.springframework.orm.jpa.persistenceunit.SimplePersistenceManagedTypes] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:57.407+09:00  INFO 8392 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-09T14:30:57.442+09:00  INFO 8392 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-09T14:30:57.449+09:00  INFO 8392 --- [    Test worker] o.h.spatial.integration.SpatialService   : HHH80000001: hibernate-spatial integration enabled : true
+2024-04-09T14:30:57.464+09:00  INFO 8392 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-09T14:30:57.624+09:00  INFO 8392 --- [    Test worker] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2024-04-09T14:30:57.640+09:00  INFO 8392 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-09T14:30:57.650+09:00  INFO 8392 --- [    Test worker] org.hibernate.spatial                    : HHH80000003: hibernate-spatial adding type contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2024-04-09T14:30:57.841+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#21c301ab' of type [org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:57.843+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean '(inner bean)#21c301ab' of type [org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean$TargetBeanObjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:57.913+09:00  INFO 8392 --- [    Test worker] org.hibernate.spatial                    : HHH80000004: hibernate-spatial adding function contributions from : org.hibernate.spatial.dialect.postgis.PostgisDialectContributor
+2024-04-09T14:30:58.276+09:00  INFO 8392 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    alter table if exists chat_message 
+       drop constraint if exists FKax7xe8g71nf0wvpoychqkqeid
+2024-04-09T14:30:58.286+09:00  INFO 8392 --- [    Test worker] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1f879e78] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:3, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists chat_message         drop constraint if exists FKax7xe8g71nf0wvpoychqkqeid&quot;]
+Params:[]
+2024-04-09T14:30:58.290+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.290+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;chat_message&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists chat_user 
+       drop constraint if exists FKd5rjaiv0u3482r2pu22ky6h1v
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists chat_user         drop constraint if exists FKd5rjaiv0u3482r2pu22ky6h1v&quot;]
+Params:[]
+2024-04-09T14:30:58.291+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.291+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;chat_user&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists comment 
+       drop constraint if exists FK7jok1s6lywoh0srylq8lt7tmn
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists comment         drop constraint if exists FK7jok1s6lywoh0srylq8lt7tmn&quot;]
+Params:[]
+2024-04-09T14:30:58.293+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.293+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;comment&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists comment 
+       drop constraint if exists FKqm52p1v3o13hy268he0wcngr5
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists comment         drop constraint if exists FKqm52p1v3o13hy268he0wcngr5&quot;]
+Params:[]
+2024-04-09T14:30:58.294+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.294+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;comment&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists post_access_list 
+       drop constraint if exists FKqmmj3blhugw5cvknalmeiftg7
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists post_access_list         drop constraint if exists FKqmmj3blhugw5cvknalmeiftg7&quot;]
+Params:[]
+2024-04-09T14:30:58.295+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.295+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;post_access_list&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists post_access_list 
+       drop constraint if exists FKnxdn37d2ahg9hihr8nhe7hc8o
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists post_access_list         drop constraint if exists FKnxdn37d2ahg9hihr8nhe7hc8o&quot;]
+Params:[]
+2024-04-09T14:30:58.296+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.296+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;post_access_list&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists post_file 
+       drop constraint if exists FKk08pgr1gtb7sg0dpsh6pdinc
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:3, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists post_file         drop constraint if exists FKk08pgr1gtb7sg0dpsh6pdinc&quot;]
+Params:[]
+2024-04-09T14:30:58.300+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.300+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;post_file&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists posts 
+       drop constraint if exists FK7dxs9b8l6uggpac4rvy1x6gl
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists posts         drop constraint if exists FK7dxs9b8l6uggpac4rvy1x6gl&quot;]
+Params:[]
+2024-04-09T14:30:58.301+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.301+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;posts&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists posts 
+       drop constraint if exists FK5lidm6cqbc7u4xhqpxm898qme
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists posts         drop constraint if exists FK5lidm6cqbc7u4xhqpxm898qme&quot;]
+Params:[]
+2024-04-09T14:30:58.302+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.302+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;posts&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists user_address 
+       drop constraint if exists FKdaaxogn1ss81gkcsdn05wi6jp
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_address         drop constraint if exists FKdaaxogn1ss81gkcsdn05wi6jp&quot;]
+Params:[]
+2024-04-09T14:30:58.303+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.303+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;user_address&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists user_address 
+       drop constraint if exists FKrmincuqpi8m660j1c57xj7twr
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_address         drop constraint if exists FKrmincuqpi8m660j1c57xj7twr&quot;]
+Params:[]
+2024-04-09T14:30:58.305+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.305+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;user_address&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists user_file 
+       drop constraint if exists FKh1krys90pkckq8s4c3n3ku87v
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:3, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_file         drop constraint if exists FKh1krys90pkckq8s4c3n3ku87v&quot;]
+Params:[]
+2024-04-09T14:30:58.308+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.308+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;user_file&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists user_friend 
+       drop constraint if exists FK7nr1nne86nobaxtkpanlmwvca
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_friend         drop constraint if exists FK7nr1nne86nobaxtkpanlmwvca&quot;]
+Params:[]
+2024-04-09T14:30:58.309+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.309+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;user_friend&quot; does not exist, skipping
+Hibernate: 
+    alter table if exists user_friend 
+       drop constraint if exists FK53ggobc81aytkkqkej6c9vv23
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_friend         drop constraint if exists FK53ggobc81aytkkqkej6c9vv23&quot;]
+Params:[]
+2024-04-09T14:30:58.310+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.310+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : relation &quot;user_friend&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists address cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:3, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists address cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.313+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.313+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;address&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists chat cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists chat cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.315+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.315+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;chat&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists chat_message cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:0, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists chat_message cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.316+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.316+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;chat_message&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists chat_user cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:0, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists chat_user cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.317+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.317+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;chat_user&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists comment cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:0, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists comment cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.317+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.317+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;comment&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists post_access_list cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:0, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists post_access_list cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.318+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.318+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;post_access_list&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists post_file cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:0, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists post_file cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.320+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.320+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;post_file&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists posts cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:10, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists posts cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.330+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.330+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;posts&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists test_address cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:0, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists test_address cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.332+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.332+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;test_address&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists user_address cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:0, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists user_address cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.333+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.333+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;user_address&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists user_file cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists user_file cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.334+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.334+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;user_file&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists user_friend cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists user_friend cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.335+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.335+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;user_friend&quot; does not exist, skipping
+Hibernate: 
+    drop table if exists users cascade
+
+Name:DATA_SOURCE_PROXY, Connection:4, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    drop table if exists users cascade&quot;]
+Params:[]
+2024-04-09T14:30:58.337+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-04-09T14:30:58.337+09:00  WARN 8392 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;users&quot; does not exist, skipping
+Hibernate: 
+    create table address (
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        meta_created_at timestamp(6),
+        meta_deleted_at timestamp(6),
+        meta_modified_at timestamp(6),
+        modified_at timestamp(6),
+        version bigint,
+        code varchar(255) unique,
+        eupmyundong varchar(255),
+        gungu varchar(255),
+        li varchar(255),
+        prev_code varchar(255),
+        sido varchar(255),
+        sunwi varchar(255),
+        centerg geometry(Point, 4326) not null,
+        centerp geometry(Point, 5179) not null,
+        geog geometry(Geometry, 4326) not null,
+        geop geometry(Geometry, 5179) not null,
+        primary key (id)
+    )
+2024-04-09T14:30:58.341+09:00  INFO 8392 --- [    Test worker] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@373743f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:37, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table address (         created_at timestamp(6) not null,         id bigserial not null,         meta_created_at timestamp(6),         meta_deleted_at timestamp(6),         meta_modified_at timestamp(6),         modified_at timestamp(6),         version bigint,         code varchar(255) unique,         eupmyundong varchar(255),         gungu varchar(255),         li varchar(255),         prev_code varchar(255),         sido varchar(255),         sunwi varchar(255),         centerg geometry(Point, 4326) not null,         centerp geometry(Point, 5179) not null,         geog geometry(Geometry, 4326) not null,         geop geometry(Geometry, 5179) not null,         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table chat (
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        version bigint,
+        status varchar(255) check (status in ('OPEN','CLOSED')),
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:4, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table chat (         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         version bigint,         status varchar(255) check (status in ('OPEN', 'CLOSED')),         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table chat_message (
+        chat_id bigint,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        version bigint,
+        message varchar(255),
+        sender varchar(255),
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:3, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table chat_message (         chat_id bigint,         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         version bigint,         message varchar(255),         sender varchar(255),         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table chat_user (
+        chat_id bigint,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        version bigint,
+        username varchar(255),
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table chat_user (         chat_id bigint,         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         version bigint,         username varchar(255),         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table comment (
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        post_id bigint,
+        user_id bigint,
+        version bigint,
+        content varchar(500),
+        status varchar(255) check (status in ('ACTIVE','INACTIVE','DELETED')),
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table comment (         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         post_id bigint,         user_id bigint,         version bigint,         content varchar(500),         status varchar(255) check (status in ('ACTIVE', 'INACTIVE', 'DELETED')),         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table post_access_list (
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        post_id bigint,
+        user_id bigint,
+        version bigint,
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table post_access_list (         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         post_id bigint,         user_id bigint,         version bigint,         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table post_file (
+        display_order integer,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        post_id bigint not null,
+        version bigint,
+        key varchar(255),
+        status varchar(255) check (status in ('ACTIVE','INACTIVE')),
+        type varchar(255) check (type in ('S3')),
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table post_file (         display_order integer,         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         post_id bigint not null,         version bigint,         key varchar(255),         status varchar(255) check (status in ('ACTIVE', 'INACTIVE')),         type varchar(255) check (type in ('S3')),         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table posts (
+        address_id bigint,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        user_id bigint not null,
+        version bigint,
+        content varchar(500),
+        access_type varchar(255) check (access_type in ('PUBLIC','FRIEND','ACCESS_LIST','PRIVATE')),
+        status varchar(255) check (status in ('ACTIVE','INACTIVE','DELETED')),
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table posts (         address_id bigint,         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         user_id bigint not null,         version bigint,         content varchar(500),         access_type varchar(255) check (access_type in ('PUBLIC', 'FRIEND', 'ACCESS_LIST', 'PRIVATE')),         status varchar(255) check (status in ('ACTIVE', 'INACTIVE', 'DELETED')),         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table test_address (
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        version bigint,
+        geo geometry(Geometry, 4326) not null,
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table test_address (         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         version bigint,         geo geometry(Geometry, 4326) not null,         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table user_address (
+        address_id bigint,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        user_id bigint,
+        version bigint,
+        status varchar(255) check (status in ('MAIN','ACTIVE','INACTIVE')),
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table user_address (         address_id bigint,         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         user_id bigint,         version bigint,         status varchar(255) check (status in ('MAIN', 'ACTIVE', 'INACTIVE')),         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table user_file (
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        user_id bigint,
+        version bigint,
+        key varchar(255),
+        status varchar(255) check (status in ('ACTIVE','INACTIVE')),
+        type varchar(255) check (type in ('S3')),
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table user_file (         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         user_id bigint,         version bigint,         key varchar(255),         status varchar(255) check (status in ('ACTIVE', 'INACTIVE')),         type varchar(255) check (type in ('S3')),         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table user_friend (
+        created_at timestamp(6) not null,
+        from_id bigint,
+        id bigserial not null,
+        modified_at timestamp(6),
+        to_id bigint,
+        version bigint,
+        status varchar(255) check (status in ('UNKNOWN','REQUEST','ACCEPT','BLOCK')),
+        primary key (id)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table user_friend (         created_at timestamp(6) not null,         from_id bigint,         id bigserial not null,         modified_at timestamp(6),         to_id bigint,         version bigint,         status varchar(255) check (status in ('UNKNOWN', 'REQUEST', 'ACCEPT', 'BLOCK')),         primary key (id)     )&quot;]
+Params:[]
+Hibernate: 
+    create table users (
+        baby_months integer check (baby_months&lt;=300),
+        email_verified boolean,
+        created_at timestamp(6) not null,
+        id bigserial not null,
+        modified_at timestamp(6),
+        version bigint,
+        username varchar(20) not null unique,
+        content varchar(500),
+        email varchar(255),
+        first varchar(255),
+        issuer varchar(255),
+        last varchar(255),
+        subject varchar(255),
+        primary key (id),
+        unique (issuer, subject)
+    )
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create table users (         baby_months integer check (baby_months&lt;=300),         email_verified boolean,         created_at timestamp(6) not null,         id bigserial not null,         modified_at timestamp(6),         version bigint,         username varchar(20) not null unique,         content varchar(500),         email varchar(255),         first varchar(255),         issuer varchar(255),         last varchar(255),         subject varchar(255),         primary key (id),         unique (issuer, subject)     )&quot;]
+Params:[]
+Hibernate: 
+    create index IDX7gcwm8n2cyqvscmahmtsk07i0 
+       on chat_user (username, chat_id)
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create index IDX7gcwm8n2cyqvscmahmtsk07i0         
+        on chat_user (username, chat_id)&quot;]
+Params:[]
+Hibernate: 
+    create index IDX58vwf19mdk5o4yglpvqbyw21w 
+       on test_address (geo)
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    create index IDX58vwf19mdk5o4yglpvqbyw21w         
+        on test_address (geo)&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists chat_message 
+       add constraint FKax7xe8g71nf0wvpoychqkqeid 
+       foreign key (chat_id) 
+       references chat
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:16, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists chat_message         add constraint FKax7xe8g71nf0wvpoychqkqeid         foreign key (chat_id)         references chat&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists chat_user 
+       add constraint FKd5rjaiv0u3482r2pu22ky6h1v 
+       foreign key (chat_id) 
+       references chat
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists chat_user         add constraint FKd5rjaiv0u3482r2pu22ky6h1v         foreign key (chat_id)         references chat&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists comment 
+       add constraint FK7jok1s6lywoh0srylq8lt7tmn 
+       foreign key (post_id) 
+       references posts
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists comment         add constraint FK7jok1s6lywoh0srylq8lt7tmn         foreign key (post_id)         references posts&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists comment 
+       add constraint FKqm52p1v3o13hy268he0wcngr5 
+       foreign key (user_id) 
+       references users
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists comment         add constraint FKqm52p1v3o13hy268he0wcngr5         foreign key (user_id)         references users&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists post_access_list 
+       add constraint FKqmmj3blhugw5cvknalmeiftg7 
+       foreign key (post_id) 
+       references posts
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists post_access_list         add constraint FKqmmj3blhugw5cvknalmeiftg7         foreign key (post_id)         references posts&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists post_access_list 
+       add constraint FKnxdn37d2ahg9hihr8nhe7hc8o 
+       foreign key (user_id) 
+       references users
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists post_access_list         add constraint FKnxdn37d2ahg9hihr8nhe7hc8o         foreign key (user_id)         references users&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists post_file 
+       add constraint FKk08pgr1gtb7sg0dpsh6pdinc 
+       foreign key (post_id) 
+       references posts
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:2, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists post_file         add constraint FKk08pgr1gtb7sg0dpsh6pdinc         foreign key (post_id)         references posts&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists posts 
+       add constraint FK7dxs9b8l6uggpac4rvy1x6gl 
+       foreign key (address_id) 
+       references address
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists posts         add constraint FK7dxs9b8l6uggpac4rvy1x6gl         foreign key (address_id)         references address&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists posts 
+       add constraint FK5lidm6cqbc7u4xhqpxm898qme 
+       foreign key (user_id) 
+       references users
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists posts         add constraint FK5lidm6cqbc7u4xhqpxm898qme         foreign key (user_id)         references users&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists user_address 
+       add constraint FKdaaxogn1ss81gkcsdn05wi6jp 
+       foreign key (address_id) 
+       references address
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_address         add constraint FKdaaxogn1ss81gkcsdn05wi6jp         foreign key (address_id)         references address&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists user_address 
+       add constraint FKrmincuqpi8m660j1c57xj7twr 
+       foreign key (user_id) 
+       references users
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_address         add constraint FKrmincuqpi8m660j1c57xj7twr         foreign key (user_id)         references users&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists user_file 
+       add constraint FKh1krys90pkckq8s4c3n3ku87v 
+       foreign key (user_id) 
+       references users
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_file         add constraint FKh1krys90pkckq8s4c3n3ku87v         foreign key (user_id)         references users&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists user_friend 
+       add constraint FK7nr1nne86nobaxtkpanlmwvca 
+       foreign key (from_id) 
+       references users
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_friend         add constraint FK7nr1nne86nobaxtkpanlmwvca         foreign key (from_id)         references users&quot;]
+Params:[]
+Hibernate: 
+    alter table if exists user_friend 
+       add constraint FK53ggobc81aytkkqkej6c9vv23 
+       foreign key (to_id) 
+       references users
+
+Name:DATA_SOURCE_PROXY, Connection:5, Time:1, Success:True
+Type:Statement, Batch:False, QuerySize:1, BatchSize:0
+Query:[&quot;
+    alter table if exists user_friend         add constraint FK53ggobc81aytkkqkej6c9vv23         foreign key (to_id)         references users&quot;]
+Params:[]
+2024-04-09T14:30:58.445+09:00  INFO 8392 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-09T14:30:58.448+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactory' of type [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:58.450+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactory' of type [jdk.proxy3.$Proxy223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:58.454+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.orm.jpa.JpaTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-04-09T14:30:58.462+09:00  WARN 8392 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration' of type [org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [jobRegistryBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-04-09T14:30:59.559+09:00  INFO 8392 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-04-09T14:30:59.718+09:00  INFO 8392 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@bc9bd00, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71e4af7b, org.springframework.security.web.context.SecurityContextHolderFilter@58d5bdb0, org.springframework.security.web.header.HeaderWriterFilter@25af5c7f, org.springframework.web.filter.CorsFilter@72a4b564, org.springframework.security.web.authentication.logout.LogoutFilter@78a9991a, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@730cc7da, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@6982fae, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@46b9a780, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5fde6b8c, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@6a474e00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b52e9cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60a781, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1939ecca, org.springframework.security.web.access.ExceptionTranslationFilter@5ea46e79, org.springframework.security.web.access.intercept.AuthorizationFilter@5bfe65df]
+2024-04-09T14:31:00.289+09:00  INFO 8392 --- [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2024-04-09T14:31:00.290+09:00  INFO 8392 --- [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@68a06679]]
+2024-04-09T14:31:00.290+09:00  INFO 8392 --- [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2024-04-09T14:31:00.319+09:00  INFO 8392 --- [    Test worker] com.mj.mysns.user.UserServiceTest        : Started UserServiceTest in 10.47 seconds (process running for 11.232)
+2024-04-09T14:31:00.454+09:00  INFO 8392 --- [    Test worker] c.mj.mysns.user.service.UserServiceImpl  : user 업데이트, targetUsername: null, userId : null
+2024-04-09T14:31:00.462+09:00  INFO 8392 --- [    Test worker] c.mj.mysns.user.service.UserServiceImpl  : user 업데이트, targetUsername: null, userId : null
+2024-04-09T14:31:00.474+09:00  INFO 8392 --- [    Test worker] c.mj.mysns.user.service.UserServiceImpl  : user 저장, targetUsername: test, id: null
+2024-04-09T14:31:00.478+09:00  INFO 8392 --- [    Test worker] c.mj.mysns.user.service.UserServiceImpl  : user 업데이트, targetUsername: null, userId : null
+2024-04-09T14:31:00.799+09:00  INFO 8392 --- [    Test worker] c.mj.mysns.user.service.UserServiceImpl  : user 업데이트, targetUsername: null, userId : null
+2024-04-09T14:31:00.802+09:00  INFO 8392 --- [    Test worker] c.mj.mysns.user.service.UserServiceImpl  : user 업데이트, targetUsername: null, userId : null
+2024-04-09T14:31:00.809+09:00  INFO 8392 --- [    Test worker] c.mj.mysns.user.service.UserServiceImpl  : user 업데이트, targetUsername: null, userId : null
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>WARNING: A Java agent has been loaded dynamically (/Users/mj/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.12/be4984cb6fd1ef1d11f218a648889dfda44b8a15/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at 2024. 4. 9. 오후 2:31:06</p>
+</div>
+</div>
+</body>
+</html>
