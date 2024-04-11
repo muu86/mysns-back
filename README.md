@@ -81,22 +81,22 @@
 
 ## 소스코드
 ### UserService
-- [User.java](/server/src/main/java/com/mj/mysns/user/entity/User.java) 
-- [UserFriend.java](/server/src/main/java/com/mj/mysns/user/entity/UserFriend.java)
-- [UserController.java](/server/src/main/java/com/mj/mysns/user/controller/UserController.java)
-- [UserServiceImpl.java](/server/src/main/java/com/mj/mysns/user/service/UserServiceImpl.java)
-- [CustomizedUserRepositoryImpl.java](/server/src/main/java/com/mj/mysns/user/repository/CustomizedUserRepositoryImpl.java)
-- [CustomizedUserRepositoryImplTest.java](/server/src/test/java/com/mj/mysns/user/repository/CustomizedUserRepositoryImplTest.java)
+- [User.java](/src/main/java/com/mj/mysns/user/entity/User.java) 
+- [UserFriend.java](/src/main/java/com/mj/mysns/user/entity/UserFriend.java)
+- [UserController.java](/src/main/java/com/mj/mysns/user/controller/UserController.java)
+- [UserServiceImpl.java](/src/main/java/com/mj/mysns/user/service/UserServiceImpl.java)
+- [CustomizedUserRepositoryImpl.java](/src/main/java/com/mj/mysns/user/repository/CustomizedUserRepositoryImpl.java)
+- [CustomizedUserRepositoryImplTest.java](/src/test/java/com/mj/mysns/user/repository/CustomizedUserRepositoryImplTest.java)
 
 ### PostService
-- [Post.java](/server/src/main/java/com/mj/mysns/post/entity/Post.java)
-- [PostController.java](/server/src/main/java/com/mj/mysns/post/controller/PostController.java)
-- [PostServiceImpl.java](/server/src/main/java/com/mj/mysns/post/service/PostServiceImpl.java)
-- [CustomizedPostRepositoryImpl.java](/server/src/main/java/com/mj/mysns/post/repository/CustomizedPostRepositoryImpl.java)
-- [CustomizedPostRepositoryImplTest.java](/server/src/test/java/com/mj/mysns/post/repository/CustomizedPostRepositoryImplTest.java)
+- [Post.java](/src/main/java/com/mj/mysns/post/entity/Post.java)
+- [PostController.java](/src/main/java/com/mj/mysns/post/controller/PostController.java)
+- [PostServiceImpl.java](/src/main/java/com/mj/mysns/post/service/PostServiceImpl.java)
+- [CustomizedPostRepositoryImpl.java](/src/main/java/com/mj/mysns/post/repository/CustomizedPostRepositoryImpl.java)
+- [CustomizedPostRepositoryImplTest.java](/src/test/java/com/mj/mysns/post/repository/CustomizedPostRepositoryImplTest.java)
 
 ### ChatService
-- [Chat.java](/server/src/main/java/com/mj/mysns/chat/entity/Chat.java)
-- [ChatMessage.java](/server/src/main/java/com/mj/mysns/chat/entity/ChatMessage.java)
-- [ChatUser.java](/server/src/main/java/com/mj/mysns/chat/entity/ChatUser.java)
-- [ChatController.java](/server/src/main/java/com/mj/mysns/chat/controller/ChatController.java)
+- [Chat.java](/src/main/java/com/mj/mysns/chat/entity/Chat.java)
+- [ChatMessage.java](/src/main/java/com/mj/mysns/chat/entity/ChatMessage.java)
+- [ChatUser.java](/src/main/java/com/mj/mysns/chat/entity/ChatUser.java)
+- [ChatController.java](/src/main/java/com/mj/mysns/chat/controller/ChatController.java)
