@@ -1,6 +1,8 @@
 # MySns
 
-육아 중인 엄마들이 정보를 공유할 수 있는 위치기반 SNS 개발 프로젝트입니다.
+동네 육아 엄마들을 위한 위치기반 SNS 개발 프로젝트입니다.
+
+https://mysns-nextjs-prisma-supabase.vercel.app
 
 <div>
 <img src="./dev_notes/images/스크린샷 2024-04-12 오전 3.35.59.png" width=200 height=250">
@@ -9,11 +11,22 @@
 <img src="./dev_notes/images/스크린샷 2024-04-12 오전 3.36.47.png" width=200 height=250>
 <div>
 
+## 소스
+
+프론트(nextjs-RestAPI)
+- https://github.com/muu86/mysns-nextjs
+
+프론트(nextjs-GraphQL,Prisma)
+- https://github.com/muu86/mysns-nextjs-prisma-supabase
+
+AWS
+- https://github.com/muu86/mysns-cdk
+
 ## 기술
 
-- spring
-- nextjs
-- postgres
+- Spring, JPA, QueryDSL
+- Nextjs
+- Postgres
 
 
 ## 개발노트
@@ -77,26 +90,3 @@
     - [ChatController](<dev_notes/채팅 기능 개발 과정.md#chatcontroller>)
   - [테스트](<dev_notes/채팅 기능 개발 과정.md#테스트>)
 - [더보기 요청 해결](<dev_notes/Post 더 보기 요청 처리 과정.md>)
-
-
-## 소스코드
-### UserService
-- [User.java](/src/main/java/com/mj/mysns/user/entity/User.java) 
-- [UserFriend.java](/src/main/java/com/mj/mysns/user/entity/UserFriend.java)
-- [UserController.java](/src/main/java/com/mj/mysns/user/controller/UserController.java)
-- [UserServiceImpl.java](/src/main/java/com/mj/mysns/user/service/UserServiceImpl.java)
-- [CustomizedUserRepositoryImpl.java](/src/main/java/com/mj/mysns/user/repository/CustomizedUserRepositoryImpl.java)
-- [CustomizedUserRepositoryImplTest.java](/src/test/java/com/mj/mysns/user/repository/CustomizedUserRepositoryImplTest.java)
-
-### PostService
-- [Post.java](/src/main/java/com/mj/mysns/post/entity/Post.java)
-- [PostController.java](/src/main/java/com/mj/mysns/post/controller/PostController.java)
-- [PostServiceImpl.java](/src/main/java/com/mj/mysns/post/service/PostServiceImpl.java)
-- [CustomizedPostRepositoryImpl.java](/src/main/java/com/mj/mysns/post/repository/CustomizedPostRepositoryImpl.java)
-- [CustomizedPostRepositoryImplTest.java](/src/test/java/com/mj/mysns/post/repository/CustomizedPostRepositoryImplTest.java)
-
-### ChatService
-- [Chat.java](/src/main/java/com/mj/mysns/chat/entity/Chat.java)
-- [ChatMessage.java](/src/main/java/com/mj/mysns/chat/entity/ChatMessage.java)
-- [ChatUser.java](/src/main/java/com/mj/mysns/chat/entity/ChatUser.java)
-- [ChatController.java](/src/main/java/com/mj/mysns/chat/controller/ChatController.java)
