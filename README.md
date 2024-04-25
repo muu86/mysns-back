@@ -14,6 +14,11 @@ https://mysns-nextjs-prisma-supabase.vercel.app
 ## 기술
 
 - Spring, JPA, QueryDSL
+  - RestAPI
+  - WebSocket 으로 채팅 구현
+- Express, GraphQL 서버
+  - GraphQL
+  - Yoga 서버의 Pub/Sub로 채팅 구현
 - Nextjs, React
   - Nextjs 의 Client Component의 상태관리를 Context Api와 Reducer로 해결했습니다.
 - Postgres
@@ -29,7 +34,7 @@ https://mysns-nextjs-prisma-supabase.vercel.app
 프론트(nextjs-GraphQL,Prisma)
 - https://github.com/muu86/mysns-nextjs-prisma-supabase
 
-AWS
+AWS CDK
 - https://github.com/muu86/mysns-cdk
 
 ## 개발노트
