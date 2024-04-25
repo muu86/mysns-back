@@ -11,6 +11,16 @@ https://mysns-nextjs-prisma-supabase.vercel.app
 <img src="./dev_notes/images/스크린샷 2024-04-12 오전 3.36.47.png" width=200 height=250>
 <div>
 
+## 기술
+
+- Spring, JPA, QueryDSL
+- Nextjs, React
+  - Nextjs 의 Client Component의 상태관리를 Context Api와 Reducer로 해결했습니다.
+- Postgres
+  - 위치기반 서비스를 제공하기 위해서 PostGIS를 사용했습니다.
+- AWS Fargate, S3, Lambda
+  - 백엔드 서버는 Fargate로 배포했고, Lambda에서 이미지를 처리하고 S3에 업로드 했습니다. 
+
 ## 소스
 
 프론트(nextjs-RestAPI)
@@ -21,14 +31,6 @@ https://mysns-nextjs-prisma-supabase.vercel.app
 
 AWS
 - https://github.com/muu86/mysns-cdk
-
-## 기술
-
-- Spring, JPA, QueryDSL
-- Nextjs
-- Postgres
-- AWS Fargate, S3, Lambda
-
 
 ## 개발노트
 - [가까운 동네 포스트 노출](<dev_notes/가까운 동네의 포스트를 우선적으로 노출.md>)
