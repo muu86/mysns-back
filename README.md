@@ -27,6 +27,7 @@ AWS
 - Spring, JPA, QueryDSL
 - Nextjs
 - Postgres
+- AWS Fargate, S3, Lambda
 
 
 ## 개발노트
